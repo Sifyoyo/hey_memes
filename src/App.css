@@ -1,0 +1,78 @@
+body{
+background-color: #152934;
+color: white;
+font-family: 'Gloria Hallelujah', cursive;
+}
+
+main{
+    text-align:center;
+}
+
+h1{
+    font-size: 64px;
+}
+
+main > p {
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #152934 inset;
+}
+
+input[type=search]{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 15px;
+    font-size: 18px;
+    background-color: transparent;
+    border: white;
+    border-style: solid;
+    border-width:0px 0px 2px 0px;
+}
+
+input[type=search]:hover{
+outline: none;
+}
+
+
+
+input[type=search]::placeholder{
+    color: white;
+    }
+    
+
+
+img{
+    width: 300px;
+    height: 250px;
+}
+
+#listOfMemes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#listOfMemes > .cards {
+    border-radius: 35px;
+    margin: 20px;
+    padding-bottom: 19px;
+    flex: 1 1 20%; 
+    transition: 1s;
+    background-color: #0a1216;
+    min-width: 350px;
+    max-width: 400px;
+}
+
+.cards:hover{
+    box-shadow: 1px 1px 40px #ffffff;
+    transform: translateY(-10px);
+}
+
